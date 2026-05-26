@@ -1,0 +1,20 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "council-skills",
+  "description": "The three-council audit protocol for analytical research: math-god-mode (active mathematicians), OG-math-experts (historical legends + control-theory founders), and controls-expert-reviewer (present-day engineering authorities). Enforces the council-log protocol that breaks iteration loops.",
+  "owner": {
+    "name": "Daniel Maldonado",
+    "email": "maldonado.2001.daniel@gmail.com"
+  },
+  "plugins": [
+    {
+      "name": "council",
+      "description": "Three-council audit protocol: math-god-mode, OG-math-experts, controls-expert-reviewer. Each skill carries the Step-0 council-log discipline (read notes/council-log.md before any audit) to prevent compounding review loops.",
+      "author": {
+        "name": "Daniel Maldonado"
+      },
+      "category": "research",
+      "source": "./plugins/council"
+    }
+  ]
+}

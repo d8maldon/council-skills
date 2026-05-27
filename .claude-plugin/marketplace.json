@@ -1,7 +1,7 @@
 {
   "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
   "name": "council-skills",
-  "description": "The three-council audit protocol for analytical research: math-god-mode (active mathematicians), OG-math-experts (historical legends + control-theory founders), and controls-expert-reviewer (present-day engineering authorities). Enforces the council-log protocol that breaks iteration loops.",
+  "description": "Two plugins. (1) council: three-council audit protocol for analytical research (math-god-mode, OG-math-experts, controls-expert-reviewer) with the council-log discipline that breaks iteration loops. (2) karpathy-rules: Andrej Karpathy's CLAUDE.md behavioral guidelines (think before coding, simplicity first, surgical changes, goal-driven execution) that reduce common LLM coding mistakes.",
   "owner": {
     "name": "Daniel Maldonado",
     "email": "maldonado.2001.daniel@gmail.com"
@@ -15,6 +15,15 @@
       },
       "category": "research",
       "source": "./plugins/council"
+    },
+    {
+      "name": "karpathy-rules",
+      "description": "Andrej Karpathy's CLAUDE.md behavioral guidelines for coding: think before coding (state assumptions, present multiple interpretations, ask when unclear), simplicity first (minimum code, no speculative features or abstractions), surgical changes (touch only what the request requires, match existing style, clean up only your own mess), and goal-driven execution (define success criteria so the loop can verify independently). Bias toward caution over speed.",
+      "author": {
+        "name": "Daniel Maldonado"
+      },
+      "category": "coding",
+      "source": "./plugins/karpathy-rules"
     }
   ]
 }

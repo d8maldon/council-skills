@@ -1,29 +1,29 @@
 {
   "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
   "name": "council-skills",
-  "description": "Two plugins. (1) council: three-council audit protocol for analytical research (math-god-mode, OG-math-experts, controls-expert-reviewer) with the council-log discipline that breaks iteration loops. (2) karpathy-rules: Andrej Karpathy's CLAUDE.md behavioral guidelines (think before coding, simplicity first, surgical changes, goal-driven execution) that reduce common LLM coding mistakes.",
+  "description": "Two plugins. (1) pantheon: three-council audit protocol for analytical research (athena = currently-active math gods, mnemosyne = historical math legends, hephaestus = present-day engineering authorities) with the council-log discipline that breaks iteration loops. (2) daedalus: Andrej Karpathy's CLAUDE.md behavioural guidelines (think before coding, simplicity first, surgical changes, goal-driven execution) that reduce common LLM coding mistakes.",
   "owner": {
     "name": "Daniel Maldonado",
     "email": "maldonado.2001.daniel@gmail.com"
   },
   "plugins": [
     {
-      "name": "council",
-      "description": "Three-council audit protocol: math-god-mode, OG-math-experts, controls-expert-reviewer. Each skill carries the Step-0 council-log discipline (read notes/council-log.md before any audit) to prevent compounding review loops.",
+      "name": "pantheon",
+      "description": "Three-council audit protocol named after the divine assembly: athena (currently-active math + controls), mnemosyne (historical math + control-theory founders + estimation classics), hephaestus (present-day engineering authorities). Each skill carries the Step-0 council-log discipline (read notes/council-log.md before any audit) to prevent compounding review loops.",
       "author": {
         "name": "Daniel Maldonado"
       },
       "category": "research",
-      "source": "./plugins/council"
+      "source": "./plugins/pantheon"
     },
     {
-      "name": "karpathy-rules",
-      "description": "Andrej Karpathy's CLAUDE.md behavioral guidelines for coding: think before coding (state assumptions, present multiple interpretations, ask when unclear), simplicity first (minimum code, no speculative features or abstractions), surgical changes (touch only what the request requires, match existing style, clean up only your own mess), and goal-driven execution (define success criteria so the loop can verify independently). Bias toward caution over speed.",
+      "name": "daedalus",
+      "description": "Behavioural guidelines for software engineering, named after the master craftsman of Greek mythology. Ships the tenets skill: think before coding (state assumptions, present multiple interpretations, ask when unclear), simplicity first (minimum code, no speculative features or abstractions), surgical changes (touch only what the request requires, match existing style, clean up only your own mess), and goal-driven execution (define success criteria so the loop can verify independently). Bias toward caution over speed.",
       "author": {
         "name": "Daniel Maldonado"
       },
       "category": "coding",
-      "source": "./plugins/karpathy-rules"
+      "source": "./plugins/daedalus"
     }
   ]
 }

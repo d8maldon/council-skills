@@ -1,9 +1,0 @@
-{
-  "name": "council",
-  "description": "Three-council audit protocol for analytical research: math-god-mode (currently-active mathematicians + applied controls people), OG-math-experts (historical legends + control-theory founders + estimation/ODE classics), and controls-expert-reviewer (present-day engineering authorities). All three enforce the council-log protocol that reads notes/council-log.md before any audit and classifies every finding as NEW / RECURRING-UNFIXED / CONFLICT-WITH-PRIOR-SIGNOFF.",
-  "author": {
-    "name": "Daniel Maldonado",
-    "email": "maldonado.2001.daniel@gmail.com"
-  },
-  "version": "1.0.0"
-}

@@ -1,6 +1,6 @@
 ---
-name: math-god-mode
-description: Convene a council of currently-active mathematicians (Tao, Scholze, Bhargava, Huh, Viazovska, Venkatesh, Villani, Duminil-Copin, Figalli, Lurie) plus applied controls people (Annaswamy, Ames, Egerstedt, Tomlin, Krstic, Khalil, Hovakimyan) to audit proofs, theorem statements, equations, and analytical claims. Activates when the user asks to "audit the math", "review this proof", "math god mode", "check these equations", "find the gap in this argument", or invokes the council on a research manuscript, lemma, or analytical section. Reads notes/council-log.md FIRST, classifies each finding as NEW / RECURRING-UNFIXED / CONFLICT-WITH-PRIOR-SIGNOFF, and appends a structured entry to the log. Designed to break compounding review loops via explicit pre-commitment honouring.
+name: athena
+description: Convene a council of currently-active mathematicians (Tao, Scholze, Bhargava, Huh, Viazovska, Venkatesh, Villani, Duminil-Copin, Figalli, Lurie) plus applied controls people (Annaswamy, Ames, Egerstedt, Tomlin, Krstic, Khalil, Hovakimyan) to audit proofs, theorem statements, equations, and analytical claims. Named after the goddess of wisdom and strategic warfare. Activates when the user asks to "audit the math", "review this proof", "math god mode", "consult athena", "check these equations", "find the gap in this argument", or invokes the council on a research manuscript, lemma, or analytical section. Reads notes/council-log.md FIRST, classifies each finding as NEW / RECURRING-UNFIXED / CONFLICT-WITH-PRIOR-SIGNOFF, and appends a structured entry to the log. Designed to break compounding review loops via explicit pre-commitment honouring.
 version: 1.0.0
 allowed-tools: Read, Grep, Glob, WebSearch, WebFetch
 ---

@@ -1,9 +1,0 @@
-{
-  "name": "karpathy-rules",
-  "description": "Andrej Karpathy's CLAUDE.md behavioral guidelines: think before coding, simplicity first, surgical changes, goal-driven execution. Biases toward caution over speed to reduce common LLM coding mistakes (unnecessary diff changes, overcomplicated rewrites, missing clarifying questions). Distilled from the karpathy-claude-md SKILL and adapted as a Claude Code plugin.",
-  "author": {
-    "name": "Daniel Maldonado",
-    "email": "maldonado.2001.daniel@gmail.com"
-  },
-  "version": "1.0.0"
-}

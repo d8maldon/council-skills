@@ -1,0 +1,9 @@
+{
+  "name": "daedalus",
+  "description": "Behavioural guidelines for software-engineering tasks, named after the master craftsman of Greek mythology who knew when not to overcomplicate. Ships the tenets skill: Andrej Karpathy's four-principle CLAUDE.md (think before coding, simplicity first, surgical changes, goal-driven execution) that biases toward caution over speed.",
+  "author": {
+    "name": "Daniel Maldonado",
+    "email": "maldonado.2001.daniel@gmail.com"
+  },
+  "version": "1.0.0"
+}

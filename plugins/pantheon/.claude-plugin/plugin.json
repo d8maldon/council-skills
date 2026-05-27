@@ -1,0 +1,9 @@
+{
+  "name": "pantheon",
+  "description": "Three-council audit protocol named after the divine assembly: athena (currently-active math + controls; wisdom + strategy), mnemosyne (historical math + control-theory founders + estimation classics; memory mother of muses), hephaestus (present-day engineering authorities; master craftsman). All three enforce the council-log protocol that reads notes/council-log.md before any audit and classifies every finding as NEW / RECURRING-UNFIXED / CONFLICT-WITH-PRIOR-SIGNOFF.",
+  "author": {
+    "name": "Daniel Maldonado",
+    "email": "maldonado.2001.daniel@gmail.com"
+  },
+  "version": "1.0.0"
+}

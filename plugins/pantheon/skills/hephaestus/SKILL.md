@@ -1,11 +1,11 @@
 ---
 name: hephaestus
-description: Convene a council of present-day engineering authorities (Annaswamy, Lavretsky, Krstic, Slotine, Khalil, Ames, Tomlin, Belta, Egerstedt, Chuchu Fan, Asada, Hogan, Featherstone, Borrelli, Morari, Wise, Hovakimyan, Recht, Abbeel, Levine, Hespanha, Frazzoli, Boyd, Allgother, Mesbahi, Bertsekas) for a three-sweep engineering review of a controls research artefact - paper, simulation, design document, hardware proposal, or implementation. Named after the master craftsman / engineer of Olympus. Activates when the user asks to "review for engineering correctness", "controls expert review", "consult hephaestus", "is this implementable", "audit the design document", or invokes the controls council on a research artefact. Each sweep picks three personas matched to the content lane. Reads notes/council-log.md FIRST, classifies findings, appends a structured entry. Distinguished from athena (analytical correctness) and mnemosyne (foundational reformulation) by its focus on engineering practice: numerics, robustness, hardware, simulation pipelines, reproducibility.
+description: Convene a council of present-day engineering authorities (Annaswamy, Lavretsky, Krstic, Slotine, Khalil, Ames, Tomlin, Belta, Egerstedt, Chuchu Fan, Asada, Hogan, Featherstone, Borrelli, Morari, Wise, Hovakimyan, Recht, Abbeel, Levine, Hespanha, Frazzoli, Boyd, Allgother, Mesbahi, Bertsekas) for a three-sweep engineering review of a controls research artefact - paper, simulation, design document, hardware proposal, or implementation. Named after the master craftsman / engineer of Olympus. Activates when the user asks to "review for engineering correctness", "consult hephaestus", "is this implementable", "audit the design document", or invokes the controls council on a research artefact. Each sweep picks three personas matched to the content lane. Reads notes/council-log.md FIRST, classifies findings, appends a structured entry. Distinguished from athena (analytical correctness) and mnemosyne (foundational reformulation) by its focus on engineering practice: numerics, robustness, hardware, simulation pipelines, reproducibility.
 version: 1.0.0
 allowed-tools: Read, Grep, Glob, WebSearch, WebFetch
 ---
 
-# controls-expert-reviewer
+# hephaestus
 
 Convene a three-sweep council of present-day engineering authorities to
 audit controls research artefacts with the rigour of an L-CSS / TAC /
@@ -25,13 +25,13 @@ log.
 
 - "Engineering review of the v18 manuscript."
 - "Is this implementable on hardware?"
-- "Controls expert review of the design document."
+- "Hephaestus review of the design document."
 - "Audit the simulation pipeline for reproducibility."
 - "Does this match what an L-CSS reviewer would flag?"
 - "Three-sweep pass on `paper/paper.tex`."
 
-For pure analytical correctness, call `math-god-mode`. For foundational
-reformulation, call `og-math-experts`. This skill is the engineering
+For pure analytical correctness, call `athena`. For foundational
+reformulation, call `mnemosyne`. This skill is the engineering
 reality check.
 
 ## Persona table
@@ -184,7 +184,7 @@ unless a NEW EXPLICIT SCOPE is declared.
 Append to `notes/council-log.md`:
 
 ```
-## Pass N (YYYY-MM-DD) - controls-expert-reviewer
+## Pass N (YYYY-MM-DD) - hephaestus
 
 **Scope:** <one line>
 **Personas (9 total):** Sweep1: <3 names>, Sweep2: <3 names>, Sweep3: <3 names>

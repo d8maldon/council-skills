@@ -70,7 +70,7 @@ After install, the skills are available as slash commands:
 
 Or by description (Claude will auto-invoke when the user asks to
 "audit the math", "consult athena", "consult mnemosyne", "consult
-hephaestus", "controls expert review", or when a coding task starts
+hephaestus", or when a coding task starts
 in a fresh session and the daedalus tenets become relevant).
 
 ## Install (claude.ai web / desktop / mobile)

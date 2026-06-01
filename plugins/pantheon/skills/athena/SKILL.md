@@ -1,11 +1,11 @@
 ---
 name: athena
-description: Convene a council of currently-active mathematicians (Tao, Scholze, Bhargava, Huh, Viazovska, Venkatesh, Villani, Duminil-Copin, Figalli, Lurie) plus applied controls people (Annaswamy, Ames, Egerstedt, Tomlin, Krstic, Khalil, Hovakimyan) to audit proofs, theorem statements, equations, and analytical claims. Named after the goddess of wisdom and strategic warfare. Activates when the user asks to "audit the math", "review this proof", "math god mode", "consult athena", "check these equations", "find the gap in this argument", or invokes the council on a research manuscript, lemma, or analytical section. Reads notes/council-log.md FIRST, classifies each finding as NEW / RECURRING-UNFIXED / CONFLICT-WITH-PRIOR-SIGNOFF, and appends a structured entry to the log. Designed to break compounding review loops via explicit pre-commitment honouring.
+description: Convene a council of currently-active mathematicians (Tao, Scholze, Bhargava, Huh, Viazovska, Venkatesh, Villani, Duminil-Copin, Figalli, Lurie) plus applied controls people (Annaswamy, Ames, Egerstedt, Tomlin, Krstic, Khalil, Hovakimyan) to audit proofs, theorem statements, equations, and analytical claims. Named after the goddess of wisdom and strategic warfare. Activates when the user asks to "audit the math", "review this proof", "consult athena", "check these equations", "find the gap in this argument", or invokes the council on a research manuscript, lemma, or analytical section. Reads notes/council-log.md FIRST, classifies each finding as NEW / RECURRING-UNFIXED / CONFLICT-WITH-PRIOR-SIGNOFF, and appends a structured entry to the log. Designed to break compounding review loops via explicit pre-commitment honouring.
 version: 1.0.0
 allowed-tools: Read, Grep, Glob, WebSearch, WebFetch
 ---
 
-# math-god-mode
+# athena
 
 Convene a council of currently-active mathematicians and applied-controls
 theorists to audit analytical content with the rigour of a peer-review
@@ -24,16 +24,16 @@ log so prior verdicts and pre-commitments are honoured.
 
 - "Audit the math in §X of this paper."
 - "Review this proof / theorem / lemma."
-- "Math god mode on `notes/pe-aware-cbf-theorem.md`."
+- "Consult athena on `notes/pe-aware-cbf-theorem.md`."
 - "Find the gap in this argument."
 - "Is the convergence rate stated correctly?"
 - Anything where analytical correctness - not engineering judgement - is the
   primary concern.
 
 For engineering-side critique (numerics, hardware, MPC vs. CBF trade-offs,
-robustness margins), call `controls-expert-reviewer` instead.
+robustness margins), call `hephaestus` instead.
 For foundational reformulation (classical lemma the modern proof should have
-invoked, missing structural object), call `og-math-experts` instead.
+invoked, missing structural object), call `mnemosyne` instead.
 
 ## Persona table
 
@@ -168,7 +168,7 @@ convergence clock.
 Append to `notes/council-log.md`:
 
 ```
-## Pass N (YYYY-MM-DD) - math-god-mode
+## Pass N (YYYY-MM-DD) - athena
 
 **Scope:** <one line>
 **Personas:** <three names>

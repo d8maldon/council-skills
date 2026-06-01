@@ -5,7 +5,7 @@ version: 1.0.0
 allowed-tools: Read, Grep, Glob, WebSearch, WebFetch
 ---
 
-# og-math-experts
+# mnemosyne
 
 Convene a council of historical mathematical legends and control-theory
 founders to surface the foundational lemma, the structural reformulation,
@@ -32,8 +32,8 @@ Every invocation begins by reading the persistent council log.
   should - the OGs find the elegant form.
 
 For audits of currently-active research-frontier rigour, call
-`math-god-mode`. For engineering / numerics / hardware critique, call
-`controls-expert-reviewer`.
+`athena`. For engineering / numerics / hardware critique, call
+`hephaestus`.
 
 ## Persona table
 
@@ -180,7 +180,7 @@ unless a NEW EXPLICIT SCOPE is declared.
 Append to `notes/council-log.md`:
 
 ```
-## Pass N (YYYY-MM-DD) - og-math-experts
+## Pass N (YYYY-MM-DD) - mnemosyne
 
 **Scope:** <one line>
 **Personas:** <three names>

@@ -90,16 +90,6 @@ Clone, edit a `SKILL.md`, then on the test machine:
 /plugin install daedalus@council-skills
 ```
 
-## Origin
-
-Distilled from the multi-pass council protocol used in the
-[Multi-Agent-CBF](https://github.com/d8maldon/Multi-Agent-CBF) and
-[adaptive-fixed-wing-gnc](https://github.com/d8maldon/adaptive-fixed-wing-gnc)
-research projects. See either repo's `SESSION_HANDOFF.md` for the historical
-context and the protocol rationale (Pass 13 of Multi-Agent-CBF found a
-paper-internal bound mismatch in 12 ms that 12 prior passes had missed;
-Passes 43-49 surfaced a recurring relative-degree-drop pattern that triggered
-the Pass-52 plant switch).
 
 ## License
 

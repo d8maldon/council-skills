@@ -1,0 +1,3 @@
+# Force LF line endings repo-wide so plugin skills never show spurious
+# CRLF/LF diffs across machines (this is what made the councils look "drifted").
+* text=auto eol=lf

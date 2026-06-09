@@ -3,7 +3,7 @@
 A Claude Code plugin marketplace with two plugins. Mythology-named so each
 skill carries its own thematic role.
 
-## 1. `pantheon` plugin (three-council audit protocol for analytical research)
+## 1. `pantheon` plugin (four-council audit protocol)
 
 The divine assembly:
 
@@ -24,8 +24,18 @@ The divine assembly:
   Belta, Egerstedt, Chuchu Fan, Asada, Hogan, Featherstone, Borrelli,
   Morari, Wise, Hovakimyan, Recht, Abbeel, Levine, Hespanha, Frazzoli,
   Boyd, Allgower, Mesbahi, Bertsekas). Master craftsman of Olympus.
+- **`prometheus`** -- founders and modern leaders of AI / ML / CS (Turing,
+  McCarthy, Minsky, Shannon, Rosenblatt, McCulloch & Pitts, Hebb, Samuel,
+  Wiener, Pearl, Bayes, Fisher, Kolmogorov, Markov, Vapnik & Chervonenkis,
+  Widrow, Ada Lovelace, Grace Hopper, Karen Sparck Jones, Barbara Liskov)
+  plus the moderns (Hinton, LeCun, Bengio, Schmidhuber, He, Vaswani,
+  Goodfellow, Sutton, Karpathy, Manning, Malik, Efros, Fei-Fei Li, Jordan,
+  Valiant, Ghahramani, Bishop, Koller, Jeff Dean, Knuth, Lamport). Audits
+  ML/CS work -- model choice, training & evaluation methodology,
+  generalization, retrieval/ranking, algorithms, systems feasibility. Titan
+  of forethought, the knowledge-bringer.
 
-All three enforce the **council-log protocol**: read
+All four enforce the **council-log protocol**: read
 `notes/council-log.md` before any audit, classify each finding as
 `NEW` / `RECURRING-UNFIXED` / `CONFLICT-WITH-PRIOR-SIGNOFF`, honour
 prior pre-commitments, and apply the loop-break heuristic so iteration
@@ -66,11 +76,12 @@ After install, the skills are available as slash commands:
 - `/pantheon:athena`
 - `/pantheon:mnemosyne`
 - `/pantheon:hephaestus`
+- `/pantheon:prometheus`
 - `/daedalus:tenets`
 
 Or by description (Claude will auto-invoke when the user asks to
 "audit the math", "consult athena", "consult mnemosyne", "consult
-hephaestus", or when a coding task starts
+hephaestus", "consult prometheus" / "audit the ML", or when a coding task starts
 in a fresh session and the daedalus tenets become relevant).
 
 ## Install (claude.ai web / desktop / mobile)
@@ -89,7 +100,6 @@ Clone, edit a `SKILL.md`, then on the test machine:
 /plugin install pantheon@council-skills
 /plugin install daedalus@council-skills
 ```
-
 
 ## License
 

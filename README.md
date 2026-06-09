@@ -3,7 +3,7 @@
 A Claude Code plugin marketplace with two plugins. Mythology-named so each
 skill carries its own thematic role.
 
-## 1. `pantheon` plugin (four-council audit protocol)
+## 1. `pantheon` plugin (five-council audit protocol)
 
 The divine assembly:
 
@@ -34,8 +34,16 @@ The divine assembly:
   ML/CS work -- model choice, training & evaluation methodology,
   generalization, retrieval/ranking, algorithms, systems feasibility. Titan
   of forethought, the knowledge-bringer.
+- **`hermes`** -- founders of vehicle dynamics (Olley, Milliken, Segel,
+  Pacejka, Broulhiet, Lanchester, Ackermann/Lankensperger, Riekert &
+  Schunck, Kane, Dubins, Reeds & Shepp, Dickmanns) plus the moderns
+  (Gerdes, Rajamani, Guiggiani, Velenis, Borrelli, Thrun, Urmson, Kendall,
+  Anguelov, Newey, Hrovat, Tseng). Audits vehicle-dynamics work -- tire
+  models, load transfer, single-track / multibody plants, handling &
+  stability, state & friction estimation, control allocation, racing lines,
+  real-telemetry validation. God of roads, speed, and travelers.
 
-All four enforce the **council-log protocol**: read
+All five enforce the **council-log protocol**: read
 `notes/council-log.md` before any audit, classify each finding as
 `NEW` / `RECURRING-UNFIXED` / `CONFLICT-WITH-PRIOR-SIGNOFF`, honour
 prior pre-commitments, and apply the loop-break heuristic so iteration
@@ -77,11 +85,13 @@ After install, the skills are available as slash commands:
 - `/pantheon:mnemosyne`
 - `/pantheon:hephaestus`
 - `/pantheon:prometheus`
+- `/pantheon:hermes`
 - `/daedalus:tenets`
 
 Or by description (Claude will auto-invoke when the user asks to
 "audit the math", "consult athena", "consult mnemosyne", "consult
-hephaestus", "consult prometheus" / "audit the ML", or when a coding task starts
+hephaestus", "consult prometheus" / "audit the ML", "consult hermes" /
+"audit the vehicle dynamics", or when a coding task starts
 in a fresh session and the daedalus tenets become relevant).
 
 ## Install (claude.ai web / desktop / mobile)

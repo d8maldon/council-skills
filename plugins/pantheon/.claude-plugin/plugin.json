@@ -1,9 +1,9 @@
 {
   "name": "pantheon",
-  "description": "Five-council audit protocol named after the divine assembly: athena (currently-active math + controls; wisdom + strategy), mnemosyne (historical math + control-theory founders + estimation classics; memory mother of muses), hephaestus (present-day engineering authorities; master craftsman), prometheus (founders + modern leaders of AI/ML/CS; forethought, the knowledge-bringer), hermes (founders + modern leaders of vehicle dynamics; god of roads + speed). All five enforce the council-log protocol that reads notes/council-log.md before any audit and classifies every finding as NEW / RECURRING-UNFIXED / CONFLICT-WITH-PRIOR-SIGNOFF.",
+  "description": "Six-council audit protocol named after the divine assembly: athena (currently-active math + controls; wisdom + strategy), mnemosyne (historical math + control-theory founders + estimation classics; memory mother of muses), hephaestus (present-day engineering authorities; master craftsman), prometheus (founders + modern leaders of AI/ML/CS; forethought, the knowledge-bringer), hermes (founders + modern leaders of vehicle dynamics; god of roads + speed), argus (research-integrity, reproducibility, and figure-verification authorities; the all-seeing hundred-eyed watchman who audits claims-vs-on-disk-evidence). All six enforce the council-log protocol that reads notes/council-log.md before any audit and classifies every finding as NEW / RECURRING-UNFIXED / CONFLICT-WITH-PRIOR-SIGNOFF.",
   "author": {
     "name": "Daniel Maldonado",
     "email": "maldonado.2001.daniel@gmail.com"
   },
-  "version": "1.2.0"
+  "version": "1.3.0"
 }

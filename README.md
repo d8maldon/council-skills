@@ -3,7 +3,7 @@
 A Claude Code plugin marketplace with two plugins. Mythology-named so each
 skill carries its own thematic role.
 
-## 1. `pantheon` plugin (five-council audit protocol)
+## 1. `pantheon` plugin (six-council audit protocol)
 
 The divine assembly:
 
@@ -42,8 +42,15 @@ The divine assembly:
   models, load transfer, single-track / multibody plants, handling &
   stability, state & friction estimation, control allocation, racing lines,
   real-telemetry validation. God of roads, speed, and travelers.
+- **`argus`** -- research-integrity, reproducibility, and figure-verification
+  authorities (Ioannidis, Nosek, Stodden, Donoho, Peng, Barba, Bik, Tufte,
+  Wilke, Simmons/Nelson/Simonsohn, Gelman, Munafo). Audits the seam between
+  what the paper CLAIMS and what is actually ON DISK -- every numeric claim
+  traced to the script output that produced it, every figure checked
+  pixel-for-pixel against its caption and the data, every "we verified"
+  re-verified. The all-seeing hundred-eyed watchman: nothing escapes Argus.
 
-All five enforce the **council-log protocol**: read
+All six enforce the **council-log protocol**: read
 `notes/council-log.md` before any audit, classify each finding as
 `NEW` / `RECURRING-UNFIXED` / `CONFLICT-WITH-PRIOR-SIGNOFF`, honour
 prior pre-commitments, and apply the loop-break heuristic so iteration
@@ -86,13 +93,16 @@ After install, the skills are available as slash commands:
 - `/pantheon:hephaestus`
 - `/pantheon:prometheus`
 - `/pantheon:hermes`
+- `/pantheon:argus`
 - `/daedalus:tenets`
 
 Or by description (Claude will auto-invoke when the user asks to
 "audit the math", "consult athena", "consult mnemosyne", "consult
 hephaestus", "consult prometheus" / "audit the ML", "consult hermes" /
-"audit the vehicle dynamics", or when a coding task starts
-in a fresh session and the daedalus tenets become relevant).
+"audit the vehicle dynamics", "consult argus" / "verify the figures" /
+"audit reproducibility" / "do the numbers match the data" / "verify the
+rendered pixels", or when a coding task starts in a fresh session and the
+daedalus tenets become relevant).
 
 ## Install (claude.ai web / desktop / mobile)
 

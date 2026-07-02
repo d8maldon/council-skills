@@ -50,6 +50,12 @@ The divine assembly:
   pixel-for-pixel against its caption and the data, every "we verified"
   re-verified. The all-seeing hundred-eyed watchman: nothing escapes Argus.
 
+- **`lynceus`** -- football/sports analytics (Spearman, Fernandez, Bornn, K. Singh,
+  S. Rudd, Sumpter, Pleuler), sports CV & tracking (Giancola, Cioppa, Maheswaran,
+  L. Shaw), information design (Tufte, Munzner, Bertin, Burn-Murdoch, Cairo). The
+  Argonauts' lookout: data-regime honesty, metric-vs-measurement, calibrated spatial
+  claims, encoding legibility.
+
 All six enforce the **council-log protocol**: read
 `notes/council-log.md` before any audit, classify each finding as
 `NEW` / `RECURRING-UNFIXED` / `CONFLICT-WITH-PRIOR-SIGNOFF`, honour
@@ -94,6 +100,7 @@ After install, the skills are available as slash commands:
 - `/pantheon:prometheus`
 - `/pantheon:hermes`
 - `/pantheon:argus`
+- `/pantheon:lynceus`
 - `/daedalus:tenets`
 
 Or by description (Claude will auto-invoke when the user asks to

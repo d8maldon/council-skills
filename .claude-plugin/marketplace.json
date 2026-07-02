@@ -9,7 +9,7 @@
   "plugins": [
     {
       "name": "pantheon",
-      "description": "Six-council audit protocol named after the divine assembly: athena (currently-active math + controls), mnemosyne (historical math + control-theory founders + estimation classics), hephaestus (present-day engineering authorities), prometheus (founders + modern leaders of AI/ML/CS), hermes (founders + modern leaders of vehicle dynamics), argus (research-integrity / reproducibility / figure-verification authorities auditing claims-vs-on-disk-evidence). Each skill carries the Step-0 council-log discipline (read notes/council-log.md before any audit) to prevent compounding review loops.",
+      "description": "Seven-council audit protocol named after the divine assembly: athena (currently-active math + controls), mnemosyne (historical math + control-theory founders + estimation classics), hephaestus (present-day engineering authorities), prometheus (founders + modern leaders of AI/ML/CS), hermes (founders + modern leaders of vehicle dynamics), argus (research-integrity / reproducibility / figure-verification authorities auditing claims-vs-on-disk-evidence). Each skill carries the Step-0 council-log discipline (read notes/council-log.md before any audit) to prevent compounding review loops.",
       "author": {
         "name": "Daniel Maldonado"
       },

@@ -18,7 +18,7 @@ log.
 **Every finding the council raises must be resolved in the current effort.** There is no "future work," "out of scope," "deferred," "nice-to-have," or "do it later" escape hatch. If the panel can see it, it gets fixed now and re-verified before the work is called done.
 
 - A verdict may **never** be "ready with deferred items." Each finding is either FIXED-and-re-verified, or it stays an open BLOCKER / MAJOR / MINOR that blocks shipping.
-- Do **not** downgrade a finding to a lower severity, and do **not** park items in an "outstanding / future work" list, to dodge doing them — that is a protocol violation.
+- Do **not** downgrade a finding to a lower severity, and do **not** park items in an "outstanding / future work" list, to dodge doing them - that is a protocol violation.
 - The **only** legitimate non-fix is an item the user explicitly and knowingly chooses to skip; surface it for an explicit decision. The council never defers silently.
 
 ## When to use
